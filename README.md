@@ -1,54 +1,87 @@
-# Retail Analytics & AI-Powered Sales Forecasting System
+# 🛒 Retail Analytics & AI-Powered Sales Forecasting System
 
-## 📖 Overview
-This project develops an end-to-end retail analytics system that analyzes sales data, forecasts future trends, segments store performance, and provides actionable business recommendations.
+##  Overview
+This project presents an end-to-end retail analytics solution designed to analyze sales data, identify patterns, forecast future demand, and support data-driven business decisions.
 
-##  Features
-- Sales trend analysis and visualization  
-- Machine learning-based sales prediction (Random Forest)  
-- Time-series forecasting using ARIMA  
-- Store segmentation using K-Means clustering  
-- Business recommendation system  
-- Interactive dashboard using Power BI  
+The system integrates data analysis, machine learning, time-series forecasting, and business intelligence to deliver actionable insights for retail management.
 
-## Tech Stack
+## Key Features
+- 1. Sales trend analysis and visualization  
+- 2. Machine learning model for sales prediction (Random Forest)  
+- 3. Time-series forecasting using ARIMA  
+- 4. Store segmentation using K-Means clustering  
+- 5. Business recommendation system  
+- 6. Interactive Power BI dashboard  
+
+
+##  Project Workflow
+
+1. Data Loading & Cleaning  
+2. Exploratory Data Analysis (EDA)  
+3. Feature Engineering (time-based features)  
+4. Machine Learning Model (Random Forest)  
+5. Time-Series Forecasting (ARIMA)  
+6. Store Segmentation (Clustering)  
+7. Dashboard Visualization (Power BI)  
+
+
+## 🛠️ Tech Stack
+
 - Python (Pandas, NumPy, Scikit-learn)  
-- Time Series (ARIMA)  
+- Time Series Analysis (ARIMA - statsmodels)  
 - Data Visualization (Matplotlib)  
 - Power BI  
 - SQL (basic queries)
 
-## Key Insights
-- Sales show stable performance with moderate seasonal patterns  
-- Revenue is evenly distributed across product categories  
-- Pricing and demand are major drivers of sales  
-- Store segmentation helps in targeted decision-making  
 
-## Model Performance
+## 📊 Key Insights
+
+- Sales show **stable performance** with moderate seasonal trends  
+- Revenue is **balanced across product categories**  
+- **Pricing and demand** are the primary drivers of sales  
+- Store segmentation helps identify **high and low-performing stores**  
+
+
+## 📈 Model Performance
+
 - Mean Absolute Error (MAE): ~656  
 - Root Mean Squared Error (RMSE): ~1039  
 
+
 ## 💡 Business Impact
-This system helps businesses in:
-- Demand forecasting  
-- Inventory optimization  
-- Store performance analysis  
-- Strategic decision-making  
 
-## 📊 Dashboard
-An interactive Power BI dashboard was developed to visualize:
-- Monthly sales trends  
-- Category-wise performance  
-- Store performance  
-- Regional sales distribution
-- Screenshot of Dashboards
-<img width="1147" height="647" alt="image" src="https://github.com/user-attachments/assets/37f31b27-74ee-4301-9ed2-cf50b747e52d" />
+This system enables:
 
-## Project Structure
-- `notebook/` → Jupyter Notebook  
-- `data/` → Dataset  
-- `dashboard/` → Power BI file  
-- `report/` → Project report  
+- 📦 Better inventory planning  
+- 📉 Demand forecasting  
+- 🏪 Store performance optimization  
+- 📊 Data-driven decision-making  
 
-## Conclusion
-This project demonstrates the integration of machine learning, time-series forecasting, and business intelligence to deliver a scalable decision-support system for retail management.
+
+## 📊 Dashboard Preview
+
+<img width="1147" height="647" alt="image" src="https://github.com/user-attachments/assets/a4852467-236b-44f1-adc6-136eb136404b" />
+
+
+
+## ▶️ How to Run the Project
+
+1. Clone the repository  
+2. Open the notebook file  
+3. Install required libraries:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib statsmodels
+4. Run all cells in the notebook
+5. Open Power BI file for dashboard visualization
+
+📂 Project Strcture 
+data/        → Dataset  
+notebook/    → Jupyter Notebook  
+dashboard/   → Power BI Dashboard  
+report/      → Project Report  
+
+Conclusion
+
+This project demonstrates the integration of machine learning, time-series forecasting, and business intelligence to build a scalable retail decision-support system.
+
+It provides both predictive capabilities and actionable insights, making it valuable for real-world retail applications.
